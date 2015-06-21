@@ -2,7 +2,7 @@
 
 # trippy.js
 
-##[Live Site](http://trippyjs.github.io/trippyjs)
+###[Live Site](http://trippyjs.github.io/trippyjs)
 
 This script is designed to make it really easy to make trippy animations. Just define a small function an it will turn into an animated canvas.
 Please make a fork so we can see what cool stuff gets made.
