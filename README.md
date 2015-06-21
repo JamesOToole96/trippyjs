@@ -1,20 +1,13 @@
-#####What to improve
-- Potentially change the variable name of x because really it is theta
-- Add diagram to explain how it works
-- Add some trippy images to README.md
-- Use forEach
-
 ![Trippy images produced by trippy.js](screenshot.png)
 
 # trippy.js
 
-[Live Site](http://trippyjs.github.io/trippyjs)
+#[Live Site](http://trippyjs.github.io/trippyjs)
 
 This script is designed to make it really easy to make trippy animations. Just define a small function an it will turn into an animated canvas.
-Please make a fork so we can see what cool stuff gets made, GitHub pages will work with any fork so your trippy animations will be hosted online.
+Please make a fork so we can see what cool stuff gets made.
 
 ##Quick start
-
 The only file you need to change is script.js. This contains some definitions of Tab objects.
 Tab() takes two parameters the first is the number of points or lines you want drawn, the second is a function that is used to draw the animation.
 The function will be parsed 'n' which is the point/line number and 't' which is the frame or time.
@@ -25,6 +18,9 @@ All properties should be numbers of any size.
 `h` The hue of the point
 `s` The saturation of the point
 `l` The lightness of the point
+
+The diagram below explains how to the x and y variables change the position of the point that is drawn.
+![Diagram explaining the x and y variable](diagram.png)
 
 ######Example script.js
 ```javascript
@@ -38,7 +34,7 @@ $(function(){
         var l = 50;
         return {"x": x, "y": y, "h": h, "s": s, "l": l};
     });
-
+});
 ```
 ### Browser support
 General browser support is evergreen browsers.

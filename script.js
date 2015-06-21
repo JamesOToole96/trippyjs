@@ -47,5 +47,4 @@ $(function(){
         var l = 10 * n;
         return {"x": x, "y": y, "h": h, "s": s, "l": l};
     });
-
 });
