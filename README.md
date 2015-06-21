@@ -12,12 +12,13 @@ The only file you need to change is script.js. This contains some definitions of
 Tab() takes two parameters the first is the number of points or lines you want drawn, the second is a function that is used to draw the animation.
 The function will be passed 'n' which is the point/line number and 't' which is the frame or time.
 The function should return an object with the following properties:
+
 All properties should be numbers.
-`x` The angle of the point drawn.
-`y` The between the center and the point drawn.
-`h` The hue of the point
-`s` The saturation of the point (0-100)
-`l` The lightness of the point (0-100)
+- `x` The angle of the point drawn.
+- `y` The between the center and the point drawn.
+- `h` The hue of the point
+- `s` The saturation of the point (0-100)
+- `l` The lightness of the point (0-100)
 
 The diagram below explains how to the x and y variables change the position of the point that is drawn.
 ![Diagram explaining the x and y variable](diagram.png)
