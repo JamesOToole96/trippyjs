@@ -2,11 +2,11 @@
 - Potentially change the variable name of x because really it is theta
 - Add diagram to explain how it works
 - Add some trippy images to README.md
-- Provide link to the gh-page in README.md
-- Setup gh-pages
-- Use for each
+- Use forEach
 
 # trippy.js
+
+[Live Site](trippyjs.github.io/trippyjs)
 
 This script is designed to make it really easy to make trippy animations. Just define a small function an it will turn into an animated canvas.
 Please make a fork so we can see what cool stuff gets made, GitHub pages will work with any fork so your trippy animations will be hosted online.
