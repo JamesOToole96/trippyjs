@@ -4,6 +4,8 @@
 - Add some trippy images to README.md
 - Use forEach
 
+![Trippy images produced by trippy.js](screenshot.png)
+
 # trippy.js
 
 [Live Site](http://trippyjs.github.io/trippyjs)
